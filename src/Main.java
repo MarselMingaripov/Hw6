@@ -51,5 +51,10 @@ public class Main {
             total = contribution + contribution * 0.01;
             System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
         }
+        System.out.println();
+        //task10
+        for (int i = 1; i <=10; i++){
+            System.out.println(2 + "*" + i + "=" + 2 * i);
+        }
     }
 }
